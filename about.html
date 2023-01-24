@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/favlogo.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style></style>
+
+    <title>B&C</title>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-dark navbar-expand-md sticky-top"
+      style="background: #967c32"
+    >
+      <img src="images/logo.png" class="img-fluid" style="width: 10%" />
+
+      <button
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" id="nav" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav" href="service.html">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" id="nav" href="#">Doctors & Staff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav" href="faqs.html">FAQs</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col-12-fluids">
+        <img src="images/aboutMain.jpg" class="img-fluid" />
+      </div>
+    </div>
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-4 col-sm-4">
+          <img src="images/about1.jpg" class="img-fluid" />
+        </div>
+        <div class="col-lg-8 col-sm-8">
+          <p class="pt-5 text-justify">
+            <span style="font-size: 50px; color: #967c32">L</span>orem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum." incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum."
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5 col-sm-4">
+          <p class="pt-5 text-justify">
+            <span style="font-size: 50px; color: #967c32">L</span> ipsum dolor
+            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum." ullamco laboris nisi
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum."
+          </p>
+        </div>
+
+        <div class="col-lg-7 col-sm-4">
+          <img src="images/about2.jpg" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 pt-5">
+          <h1
+            style="
+              font-family: 'Times New Roman', Times, serif;
+              text-align: center;
+              color: #967c32;
+            "
+          >
+            Check Our Facilities
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="container pb-5">
+      <div class="row pt-5">
+        <div class="col-lg-3 col-sm-3">
+          <img
+            src="images/fac1.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(1)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="col-lg-3 col-sm-3">
+          <img
+            src="images/fac2.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(2)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="col-lg-3 col-sm-3">
+          <img
+            src="images/fac3.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(3)"
+            class="hover-shadow cursor"
+          />
+        </div>
+        <div class="col-lg-3 col-sm-3">
+          <img
+            src="images/fac4.jpg"
+            style="width: 100%"
+            onclick="openModal();currentSlide(4)"
+            class="hover-shadow cursor"
+          />
+        </div>
+      </div>
+
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="images/fac1.jpg" style="width: 100%" />
+            <div class="caption-container">
+              <p id="caption">Laboratory Area 1</p>
+            </div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="images/fac2.jpg" style="width: 100%" />
+            <div class="caption-container">
+              <p id="caption">Laboratory Area 2</p>
+            </div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="images/fac3.jpg" style="width: 100%" />
+            <div class="caption-container">
+              <p id="caption">Laboratory Area 3</p>
+            </div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="images/fac4.jpg" style="width: 100%" />
+            <div class="caption-container">
+              <p id="caption">Reception Area</p>
+            </div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </div>
+    </div>
+    <footer style="background-color: #967c32">
+      <!-- Grid container -->
+      <div class="container pt-3">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-5 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-light">
+              <img
+                class="img-responsive"
+                src="images/logo.png"
+                style="max-width: 60px; max-height: 60px"
+              />
+              b&c diagnostic
+            </h5>
+
+            <p class="text-light">
+              Sample text here.Sample text here.Sample text here.Sample text
+              here.
+              <a href="signup.html" style="color: white">Sign up</a> sample text
+              here
+            </p>
+            <small>
+              <p class="text-light">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content..
+              </p>
+            </small>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="contact.html" class="text-white">Contact Us</a>
+              </li>
+              <li>
+                <a href="faqs.html" class="text-white">FAQs</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Careers</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Privacy Policy</a>
+              </li>
+              <!-- <li>
+                      <a href="#!" class="text-white">Terms and Conditions</a>
+                    </li> -->
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-light">
+            <p>
+              <img
+                class="img-responsive"
+                src="images/contact.png"
+                style="max-width: 20px; max-height: 20px"
+              />
+              +63 917 127 7931 <br />
+              <img
+                class="img-responsive"
+                src="images/address.png"
+                style="max-width: 20px; max-height: 20px"
+              />
+              Pearl Drive Commonwealth Fairview Quezon City <br /><br />
+              <img
+                class="img-responsive"
+                src="images/facebook.png"
+                style="max-width: 20px; max-height: 20px"
+              />
+              www.facebook.com/BandCDiagnosticsLaboratory
+            </p>
+          </div>
+
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-3 text-light"
+        style="background-color: rgb(95, 71, 0)"
+      >
+        © 2023 Copyright:
+        <a class="text-white" href="https://index.html/">bncdiagnostic.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </body>
+
+  <script>
+    function openModal() {
+      document.getElementById("myModal").style.display = "block";
+    }
+
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+
+    function currentSlide(n) {
+      showSlides((slideIndex = n));
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
+</html>
